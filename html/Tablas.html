@@ -1,0 +1,451 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+body header , nav, main, footer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body footer {
+    background-color: #FFE8E8;
+    color: #814751;
+    padding: 50px;
+    text-align: center;
+}
+body header     {
+    background-color: #FCBEBF;
+    text-align: center;
+    color: #FFF6F6;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 50px;
+    font-size: 48px;
+}
+body main {
+    padding: 50px;
+    background-color: #F1C0C1;
+}
+body main section {
+    width: 900px;
+    background-color: #F4F4F4;
+    margin-left: auto;
+    padding-top: 45px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 45px;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+main section p {
+    color: #8B1D1F;
+}
+nav ul li {
+	list-style-type: none;
+	padding-top: 18px;
+	padding-right: 18px;
+	padding-bottom: 18px;
+	padding-left: 18px;
+	width: 103px;
+	height: 27px;
+	display: inline-block;
+	background-color: #FFE8E8;
+	text-align: center;
+	border-radius: 50px;
+	font-style: normal;
+	border: 3px solid #F7BBBC;
+	margin-left: 11px;
+	margin-right: -5px;
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+body footer {
+    font-size: 18px;
+}
+ul li a:link {
+    color: #F96EC1;
+}
+ul li a:hover {
+    color: #B4D59E;
+    font-size: 15px;
+}
+ul li a:visited {
+    color: #B8AEF2;
+}
+main section h2 {
+    color: #D06C6D;
+    font-size: 32px;
+}
+	a {
+    color: palevioletred;
+    border-radius: 0;
+    text-decoration: none;
+	}
+	table{
+		width: 100%;
+		border-style:solid;
+		border-width: 1px;
+		border-color: maroon;
+		border-collapse: collapse;
+	}
+	table tr{
+    color: palevioletred;
+    background-color: #FFE4E5;
+	}
+	table th, table td{
+		border: 2px solid #FFB4B5;
+		padding: 5px;
+		text-align: center;
+	}
+	#tabla_1{
+		background-color: #C48082;
+		color: aliceblue;
+		font-family:"Arial Rounded MT";
+		border-collapse: separate;
+		padding: 20px;
+		border-width: 3px;
+	}
+#tabla_1 tbody td:hover  {
+    background-color: #E4ECA7;
+    color: #6CA876;
+}
+	#tabla_1 td, #tabla_1{
+		border-color: #FF5355;
+	}
+	#tabla_1 td{
+		background-color: pink;
+	}
+	#tabla_1 th{
+		background-color: #E9E5E6;
+	}
+	#tabla_1 tfoot td{
+    background-color: #382727;
+	}
+#tabla_2 {
+    margin-top: 30px;
+    padding: 10px;
+    width: 60%;
+}
+#tabla_2 tbody tr:hover  {
+    background-color: #FEE6BB;
+    color: #604546;
+}
+#tabla_2 tfoot td {
+    font-style: normal;
+    font-weight: bold;
+    background-color: #2F1B1C;
+    font-size: 16px;
+}
+#tabla_2 tbody td {
+    text-align: left;
+    padding: 10px;
+}
+#tabla_2 th {
+    background-color: #ECC6F7;
+    text-align: left;
+    font-family: "Arial MT Black";
+}
+#tabla_3 {
+    background-color: undefined;
+}
+#tabla_3 tbody tr:nth-child(odd) {
+    background-color: #CE85F4;
+    color: #F7D3D3;
+}
+#tabla_3 tfoot td {
+    background-color: #581B69;
+    color: #FFE2E3;
+}
+#tabla_3 thead th {
+    background-color: #30083D;
+    color: #F7E4E5;
+}
+#tabla_3 tbody tr:nth-child(even) {
+    background-color: #E8D5F7;
+    color: #B43F40;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Tablas en html&nbsp;</h1>
+</header>
+<nav>
+  <ul>
+	 <li><a href="../index.html">Index</a></li>
+    <li><a href="practica uno.html">Formatos de texto</a></li>
+	<li><a href="imagenes.html">Imagenes</a></li>
+    <li><a href="audio.html">Audio</a></li>
+	<li><a href="video.html">Video</a></li>
+	<li><a href="animación.html">Animación</a></li>
+	<li><a href="Flexbox.html">Flexbox</a></li>  
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Tabla simple</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ipsam vel similique totam, impedit exercitationem quas a, nam, cum ex voluptate. Expedita a nisi ducimus placeat est deserunt, ut accusantium et vitae reiciendis totam. Explicabo quis amet illum alias sint optio, unde quam a eos, placeat quidem perferendis! Minima facere pariatur excepturi minus quas ab non similique error id sequi, tempore quos amet nesciunt neque, laudantium aperiam delectus voluptas harum. Repellendus quisquam reiciendis cupiditate doloribus corporis blanditiis ut, dolor explicabo at tempore, dolores quidem iste suscipit illo ipsum dolorum quas officia perspiciatis veniam? Quos, ut laborum ipsum beatae corporis sint.</p>
+	<table border="1">
+	
+	<thead>
+	<tr>
+		<th>Nombre</th>	
+		<th>Apellido Paterno</th>
+		<th>Apellido Materno</th>
+		<th>Edad</th>
+		<th>Cooperación</th>
+	</tr>	
+	</thead>
+	<tbody>
+		<tr>
+			<td>Angel</td>
+			<td>Lopez</td>
+			<td>Flores</td>
+			<td>20</td>
+			<td>100</td>	
+		</tr>	
+		<!--Shortcut para duplicar una fila con 5 celdas cuatro veces(tr>(td*5))*4-->
+		<tr>
+			<td>Ana</td>
+			<td>Díaz</td>
+			<td>Sanchez</td>
+			<td>18</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>Guadalupe</td>
+			<td>Gomez</td>
+			<td>Perez</td>
+			<td>19</td>
+			<td>25</td>
+		</tr>
+		<tr>
+			<td>Roberto</td>
+			<td>Fernandez</td>
+			<td>Jimenez</td>
+			<td>19</td>
+			<td>150</td>
+		</tr>
+		<tr>
+			<td>Jose Luis</td>
+			<td>Velez</td>
+			<td>Lopez</td>
+			<td>20</td>
+			<td>100</td>
+		</tr>
+	</tbody>
+	<tfoot>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>Total</td>
+		<td>375</td>
+	</tr>	
+	</tfoot>
+		
+	</table>
+</section>
+<section>
+  <h2>Tabla modificada a partir de un identificador</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis repudiandae maiores nemo ipsum labore rerum eos doloremque temporibus, ex odit id minus numquam. Doloribus nemo eos sed blanditiis eligendi eveniet tenetur architecto, quibusdam alias sint dolor minima veniam ducimus, in natus odit debitis dolores laborum temporibus ipsam fugit impedit! Natus cupiditate sit beatae odio ab magni cum praesentium quidem, ex eius fugiat. Molestiae quidem eum a asperiores obcaecati, hic nemo totam explicabo soluta perferendis alias deleniti harum error unde facere enim. Quas quod, quisquam reprehenderit quaerat unde dolorum obcaecati doloribus cupiditate nostrum magnam minima dicta quidem voluptates architecto fugiat, modi!</p>
+  <table id="tabla_1" border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido Paterno</th>
+        <th>Apellido Materno</th>
+        <th>Edad</th>
+        <th>Cooperación</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Angel</td>
+        <td>Lopez</td>
+        <td>Flores</td>
+        <td>20</td>
+        <td>100</td>
+      </tr>
+      <!--Shortcut para duplicar una fila con 5 celdas cuatro veces(tr>(td*5))*4-->
+      <tr>
+        <td>Ana</td>
+        <td>Díaz</td>
+        <td>Sanchez</td>
+        <td>18</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Guadalupe</td>
+        <td>Gomez</td>
+        <td>Perez</td>
+        <td>19</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Roberto</td>
+        <td>Fernandez</td>
+        <td>Jimenez</td>
+        <td>19</td>
+        <td>150</td>
+      </tr>
+      <tr>
+        <td>Jose Luis</td>
+        <td>Velez</td>
+        <td>Lopez</td>
+        <td>20</td>
+        <td>100</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Total</td>
+        <td>375</td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+<section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus enim minus asperiores, delectus sequi molestiae aperiam ad mollitia libero at ipsa eaque tempora aliquid, aspernatur itaque quasi maiores atque quia, iure consectetur dolores necessitatibus. Fugiat, vero, rem iure quae molestias corporis eligendi. Fuga dolor inventore voluptate obcaecati, laborum quisquam hic, quis voluptates asperiores nemo omnis explicabo doloremque tempora sunt voluptatibus repellendus culpa amet molestias? Quisquam esse reprehenderit quibusdam, repudiandae, quod rem qui maxime, tempore expedita ea deserunt aliquid illum excepturi nisi dolorem quos fugit laudantium, voluptate. Aspernatur omnis dolor maiores aliquid cum inventore neque, obcaecati, id excepturi natus animi!</p>
+    <table border="1" id="tabla_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido Paterno</th>
+          <th>Apellido Materno</th>
+          <th>Edad</th>
+          <th>Cooperación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Angel</td>
+          <td>Lopez</td>
+          <td>Flores</td>
+          <td>20</td>
+          <td>100</td>
+        </tr>
+        <!--Shortcut para duplicar una fila con 5 celdas cuatro veces(tr>(td*5))*4-->
+        <tr>
+          <td>Ana</td>
+          <td>Díaz</td>
+          <td>Sanchez</td>
+          <td>18</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Guadalupe</td>
+          <td>Gomez</td>
+          <td>Perez</td>
+          <td>19</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Roberto</td>
+          <td>Fernandez</td>
+          <td>Jimenez</td>
+          <td>19</td>
+          <td>150</td>
+        </tr>
+        <tr>
+          <td>Jose Luis</td>
+          <td>Velez</td>
+          <td>Lopez</td>
+          <td>20</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Total</td>
+          <td>375</td>
+        </tr>
+      </tfoot>
+    </table>
+</section>
+<section>
+  <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit facere facilis, iste nulla, recusandae dicta, exercitationem modi, nam possimus ipsam adipisci! Distinctio id expedita illo. Architecto ad ducimus, soluta aut facere velit perferendis harum. Incidunt perspiciatis cupiditate inventore in soluta unde laborum ut tempore eum impedit ipsa, quia eaque neque officiis culpa error optio ad. Enim laudantium sunt asperiores veritatis amet numquam unde laborum voluptatem quaerat ad cumque libero, officia dicta rerum odio. Dolorum illum laborum praesentium beatae mollitia ipsum, dolores deserunt. Ab quibusdam beatae, voluptas quaerat commodi consequatur id, cumque a sapiente architecto consectetur aliquid repudiandae. Quisquam, aliquam, voluptas!</p>
+  <table cellpadding="5" cellspacing="5" id="tabla_3">
+<thead>
+<tr>
+  <th scope="col">Nombre</th>
+  <th scope="col">Apellidos</th>
+  <th scope="col">Correo</th>
+  <th scope="col">Teléfono</th>
+  <th scope="col">Cooperación</th>
+</tr>
+	</thead>
+    <tbody>
+  <tr>
+  		<td>María</td>
+        <td>Sosa Hernandez</td>
+        <td>mary34@hotmail.com</td>
+        <td>2223456789</td>
+	    <td>100</td>
+    </tr>
+      <tr>
+        <td>Jose Alfredo</td>
+        <td>Goméz Vera</td>
+        <td>alfred_gv@gmail.com</td>
+        <td>2225434567</td>
+		<td>50</td>
+      </tr>
+      <tr>
+        <td>Hugo</td>
+        <td>Castro Jimenez</td>
+        <td>wolver_87@yahoo.com</td>
+        <td>22229876543</td>
+		<td>50</td>
+      </tr>
+      <tr>
+        <td>Verónica</td>
+        <td>Xicotenecatl López</td>
+        <td>vero_xi@hotmail.com</td>
+        <td>2225678897</td>
+		<td>100</td>
+      </tr>
+      <tr>
+        <td>Bernardo</td>
+        <td>Morales Hernández</td>
+        <td>berny98@outlook.com</td>
+        <td>5534567888</td>
+		<td>200</td>
+      </tr>
+      <tr>
+        <td>Gerardo</td>
+        <td>Rojas Vargas&nbsp;</td>
+        <td>gerrygmail.com&nbsp;</td>
+        <td>7789987654&nbsp;</td>
+		<td>50</td>
+      </tr>
+  </tbody>
+	 <tfoot>
+		 <tr>
+	  	 <td height="22"></td>
+		 <td>&nbsp;</td>
+		 <td></td>
+		 <td>Total</td>
+		 <td>550</td>
+	  	 </tr>
+	 </tfoot>
+  </table>
+  </section>
+</main>
+<footer>
+  <h5>Elaborado por Yolanda del Carmen Paxtián Ponce</h5>
+</footer>
+</body>
+</html>

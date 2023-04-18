@@ -1,0 +1,173 @@
+@charset "utf-8";
+@import url("Arial_Rounded_MT/stylesheet.css");
+@import url("NewsGoth_BT_Bold_32442/stylesheet.css");
+@import url("RampartOne_Regular/stylesheet.css");
+@import url("CreteRound_Italic/stylesheet.css");
+@import url("CreteRound_Regular/stylesheet.css");
+
+
+
+
+
+header,nav,main,footer{
+    padding: 20px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main section {
+	padding: 20px;
+	background-color: #3999B8;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	color: #E0F7FE;
+}
+main section h2 {
+	font-family: "CreteRound Italic";
+	font-style: normal;
+	font-weight: 400;
+	color: rgba(255,255,255,1.00);
+}
+
+
+header{
+    background-color: #70CCEA;
+    height: 100px;
+}nav {
+    height: 60px;
+    background-color: #B7EBFF;
+    padding-bottom: 30px;
+}
+main {
+    background-color: #D7F4FF;
+}
+main section img {
+    width: 200px;
+    min-width: auto;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+footer {
+    height: 50px;
+    background-color: #157195;
+}
+header h1 {
+	color: #E9F9FF;
+	text-align: center;
+	font-family: "RampartOne Regular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+footer h5 {
+    font-family: "CreteRound Regular";
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: lighter;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+#fondo_1 {
+    background-image: url(../imagenes/perro_2.jpg);
+    background-position: 53% 16%;
+    background-size: 230% 113%;
+}
+.img_1 {
+	width: 86px;
+	float: right;
+
+}
+
+.p1 {
+    width: 400px;
+    color: #202168;
+    padding: 10px;
+    background-color: rgba(0,118,208,0.62);
+}
+main section p {
+	font-family: "Arial Rounded MT";
+}
+main section {
+
+
+}
+
+nav ul li {
+	display: inline-block;
+	width: 107px;
+	height: 38px;
+	text-align: center;
+	margin-top: auto;
+	margin-right: -6px;
+	margin-left: 20px;
+	margin-bottom: auto;
+	padding-top: 19px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	border-radius: 50px;
+	background-color: rgba(239,250,255,1.00);
+	font-family: "CreteRound Regular";
+	font-size: 12px;
+}
+ul li a:link  {
+    color: rgba(95,146,255,1.00);
+
+}
+ul li a:hover  {
+    color: rgba(17,88,162,1.00);
+    font-size: 18px;
+}
+ul li a:visited {
+    color: rgba(129,113,113,1.00);
+}
+a {
+    text-decoration: none;
+    text-align: left;
+    font-family: "Arial Rounded MT";
+}
+.img_1 {
+	width: 16%;
+	padding-left: 20px;
+}
+.centrar {
+    margin: 0 auto;
+    display: block;
+}
+.video_1 {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border: 12px solid #72C5EE;
+}
+.img_2 {
+    width: 13%;
+    float: right;
+    padding-left: 20px;
+}
+.video_2 {
+    width: 50%;
+}
+.animate__delay-2s {
+}
+.animate__delay-3s {
+}
+.animate__slow {
+}
+.img_3 {
+    width: 30%;
+    float: left;
+    padding-right: 20px;
+}
+.animate__delay-5s {
+}
+.animate__repeat-3 {
+}
